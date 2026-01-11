@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pour Maman Nichen ❤️</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 30px;
+            padding: 40px 30px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            animation: fadeIn 1s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .heart {
+            font-size: 60px;
+            animation: heartbeat 1.5s ease-in-out infinite;
+            display: inline-block;
+        }
+
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            25% { transform: scale(1.1); }
+            50% { transform: scale(1); }
+        }
+
+        h1 {
+            color: #764ba2;
+            font-size: 32px;
+            margin: 20px 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .message {
+            text-align: center;
+            line-height: 1.8;
+            color: #333;
+            font-size: 18px;
+            margin: 25px 0;
+        }
+
+        .message p {
+            margin: 15px 0;
+        }
+
+        .highlight {
+            color: #764ba2;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .qualities {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            border-radius: 20px;
+            padding: 25px;
+            margin: 30px 0;
+            color: white;
+            text-align: center;
+        }
+
+        .qualities h2 {
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+
+        .qualities ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .qualities li {
+            padding: 8px 0;
+            font-size: 16px;
+        }
+
+        .qualities li:before {
+            content: "✨ ";
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-style: italic;
+            color: #666;
+        }
+
+        .flowers {
+            text-align: center;
+            font-size: 40px;
+            margin: 20px 0;
+            animation: sway 3s ease-in-out infinite;
+        }
+
+        @keyframes sway {
+            0%, 100% { transform: rotate(-5deg); }
+            50% { transform: rotate(5deg); }
+        }
+
+        .signature {
+            text-align: right;
+            margin-top: 30px;
+            font-size: 20px;
+            color: #764ba2;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="heart">❤️</div>
+            <h1>Pour Maman Nichen</h1>
+        </div>
+
+        <div class="message">
+            <p>Maman,</p>
+            <p>Je voulais prendre un moment pour te dire à quel point <span class="highlight">tu es spéciale</span> pour moi.</p>
+        </div>
+
+        <div class="qualities">
+            <h2>Tu es la meilleure maman parce que :</h2>
+            <ul>
+                <li>Tu es toujours là pour moi</li>
+                <li>Tu me donnes tant d'amour</li>
+                <li>Tu me comprends comme personne</li>
+                <li>Tu as le plus grand cœur du monde</li>
+                <li>Tu rends chaque jour meilleur</li>
+                <li>Tu es mon inspiration</li>
+            </ul>
+        </div>
+
+        <div class="flowers">🌹🌸🌺🌷🌻</div>
+
+        <div class="message">
+            <p><span class="highlight">Je t'aime fort, très fort !</span></p>
+            <p>Tu es la meilleure maman du monde entier et je suis tellement chanceux(se) de t'avoir dans ma vie.</p>
+            <p>Merci d'être toi, merci pour tout ce que tu fais.</p>
+        </div>
+
+        <div class="signature">
+            Avec tout mon amour 💕
+        </div>
+
+        <div class="footer">
+            <p>❤️ Pour toujours ❤️</p>
+        </div>
+    </div>
+</body>
+</html>
